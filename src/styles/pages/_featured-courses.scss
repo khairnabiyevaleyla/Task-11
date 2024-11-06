@@ -1,0 +1,71 @@
+#featured-courses {
+  font-family: $default_font;
+  background-color: $dark_color;
+  padding: 50px;
+  .featured_courses__heading {
+    color: $white_color;
+    font-size: 52px;
+    font-weight: 700;
+  }
+  .featured_courses__card {
+    background-color: $white_color;
+    border-radius: 16px;
+    height: 530px;
+    width: 400px;
+    &__img {
+      img {
+        @extend %base_img;
+        border-radius: 16px 16px 0 0;
+      }
+    }
+    &__reviews {
+      padding: 20px;
+      ul {
+        @include Flexible(flex-start, start, row, nowrap, 8px);
+        li {
+          i {
+            color: $button_color;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    &__body {
+      padding: 20px;
+      line-height: 28px;
+      h4 {
+        font-size: 20px;
+        color: $headline_color;
+        font-weight: 500;
+      }
+      p {
+        font-size: 15px;
+        color: $headline_color;
+        font-weight: 300;
+        margin-top: 10px;
+        span {
+          color: $grey_color;
+        }
+      }
+    }
+    &__enroll {
+      @include Flexible(space-between, center, row, nowrap, 0);
+      padding: 20px;
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      p {
+        font-size: 16px;
+        color: $button_color;
+      }
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        color: $headline_color;
+        font-weight: 300;
+        transition: color 0.3 ease;
+        &:hover {
+          color: $button_color;
+        }
+      }
+    }
+  }
+}

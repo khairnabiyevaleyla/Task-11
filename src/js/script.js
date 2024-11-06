@@ -16,8 +16,8 @@ const getAPIdataWithAxios = async (url, cb) => {
 const partnersRow = document.getElementById("partners-row");
 const benefitsCards = document.getElementById("benefits-cards");
 const categoriesCards = document.getElementById("categories-cards");
-
 const faqRow = document.getElementById("faq-row");
+const feautredCourses = document.getElementById("courses");
 
 const addPartnerLogoData = (data) => {
   if (data && partnersRow) {
@@ -107,7 +107,42 @@ const addFaqData = (data) => {
   }
 };
 
+const addFeauturedCardsData = (data) => {
+  if (data && feautredCourses) {
+    let htmlContent = "";
+    data.forEach((element) => {
+      htmlContent += `<div class="col-xl-4">
+                    <div class="featured_courses__card">
+                        <div class="featured_courses__card__img">
+                            <img
+                                src="${element.image}">
+                        </div>
+                        <div class="featured_courses__card__reviews">
+                            <ul>
+                                <li><i class="ri-star-line"></i></li>
+                                <li><i class="ri-star-line"></i></li>
+                                <li><i class="ri-star-line"></i></li>
+                                <li><i class="ri-star-line"></i></li>
+                                <li><i class="ri-star-line"></i></li>
+                            </ul>
+                        </div>
+                        <div class="featured_courses__card__body">
+                            <h4>${element.name}</h4>
+                            <p><span>In </span>${element.keywords}</p>
+                        </div>
+                        <div class="featured_courses__card__enroll">
+                            <p>Free</p>
+                            <a href="#"><i class="ri-layout-grid-line"></i> Get Enrolled</a>
+                        </div>
+                    </div>
+                </div>`;
+    });
+    feautredCourses.innerHTML = htmlContent;
+  }
+};
+
 getAPIdataWithAxios("/partners", addPartnerLogoData);
 getAPIdataWithAxios("/benefits", addBenefitCardData);
 getAPIdataWithAxios("/categories", addCategorieCardData);
 getAPIdataWithAxios("/FAQs", addFaqData);
+getAPIdataWithAxios("/courses", addFeauturedCardsData);
