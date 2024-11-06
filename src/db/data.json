@@ -1,0 +1,43 @@
+{
+    "partners": [
+        {
+            "id": "1",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-1.webp"
+        },
+        {
+            "id": "2",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-2.webp"
+        },
+        {
+            "id": "3",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-3.webp"
+        },
+        {
+            "id": "4",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-4.webp"
+        },
+        {
+            "id": "5",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-5.webp"
+        },
+        {
+            "id": "6",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-6.webp"
+        },
+        {
+            "id": "7",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-7.webp"
+        },
+        {
+            "id": "8",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-8.webp"
+        },
+        {
+            "id": "9",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-9.webp"
+        }, {
+            "id": "10",
+            "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-2.webp"
+        }
+    ]
+}

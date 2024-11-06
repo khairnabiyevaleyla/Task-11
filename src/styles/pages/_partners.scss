@@ -1,0 +1,14 @@
+#partners {
+  background-color: $light_color;
+  .partners_logo {
+    background-color: $white_color;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(224, 224, 224, 1);
+    img {
+      width: 150px;
+      height: 59px;
+      margin-left: 10px;
+    }
+  }
+}

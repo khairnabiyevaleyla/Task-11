@@ -209,4 +209,18 @@ table {
   font-size: 14px;
   font-weight: bold;
   color: #171717;
+}
+#partners {
+  background-color: #F6F4EF;
+}
+#partners .partners_logo {
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px rgb(224, 224, 224);
+}
+#partners .partners_logo img {
+  width: 150px;
+  height: 59px;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
