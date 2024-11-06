@@ -1,0 +1,46 @@
+#start-now {
+  background-color: $dark_color;
+  font-family: $default_font;
+  color: $white_color;
+  padding: 50px;
+  .content_box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 20px 30px -5px rgba(0, 0, 0, 0.25);
+    @include Flexible(flex-start, start, column, nowrap, 20px);
+    padding: 60px;
+    background-image: linear-gradient(
+        90deg,
+        #1e1c1b 65%,
+        rgba(30, 28, 27, 0.6) 100%
+      ),
+      url("https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-CTA-Image.webp");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    h3 {
+      font-size: 56px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 200;
+      color: #cbcbcb;
+      line-height: 28px;
+    }
+    &__btn {
+      @include Flexible(flex-start, center, row, nowrap, 20px);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      a {
+        @extend %base_button;
+        &:hover {
+          background-color: $accent_color;
+        }
+      }
+      .explore {
+        background-color: $white_color;
+      }
+    }
+  }
+}
