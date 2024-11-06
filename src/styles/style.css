@@ -1,1 +1,112 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#header {
+  background: #F6F4EF;
+  font-family: "Bricolage Grotesque", sans-serif;
+  padding: 20px;
+}
+#header .logo_img {
+  padding-left: 50px;
+}
+#header .logo_img img {
+  width: 108px;
+  height: 32px;
+}
+#header #nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+#header #nav_menu li {
+  font-size: 16px;
+  font-weight: 300;
+  color: #171717;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+#header #nav_menu li:hover {
+  color: #F0844E;
+}
+#header .account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+#header .account a {
+  text-decoration: none;
+  color: #171717;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+#header .account .login {
+  transition: color 0.3s ease;
+}
+#header .account .login:hover {
+  color: #F0844E;
+}
+#header .account .sign-up {
+  background-color: #F0844E;
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+#header .account .sign-up:hover {
+  background-color: #F6C143;
+}/*# sourceMappingURL=style.css.map */
