@@ -17,6 +17,8 @@ const partnersRow = document.getElementById("partners-row");
 const benefitsCards = document.getElementById("benefits-cards");
 const categoriesCards = document.getElementById("categories-cards");
 
+const faqRow = document.getElementById("faq-row");
+
 const addPartnerLogoData = (data) => {
   if (data && partnersRow) {
     let htmlContent = "";
@@ -38,7 +40,7 @@ const addBenefitCardData = (data) => {
   if (data && benefitsCards) {
     let htmlContent = "";
     data.forEach((element) => {
-      htmlContent += `<div class="col-xl-6">
+      htmlContent += `<div class="col-xl-6 col-md-12 col-sm-12">
                             <div class="right_side">
                                 <div class="right_side__logo" style="background-image: url('${element["bg-im"]}');">
                                     <img src="${element.icon}">
@@ -79,6 +81,33 @@ const addCategorieCardData = (data) => {
   }
 };
 
+const addFaqData = (data) => {
+  if (data && faqRow) {
+    let htmlContent = "";
+    data.forEach((element) => {
+      htmlContent += `<div class="faq_accordion">
+                        <div class="faq_accordion__question">
+                            <h3>${element.question}
+                            </h3>
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <div class="faq_accordion__answer">
+                            <p>${element.answer}</p>
+                        </div>
+                    </div>`;
+    });
+    faqRow.innerHTML = htmlContent;
+    const faqItem = faqRow.querySelectorAll(".faq_accordion");
+
+    faqItem.forEach((faq) => {
+      faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+      });
+    });
+  }
+};
+
 getAPIdataWithAxios("/partners", addPartnerLogoData);
 getAPIdataWithAxios("/benefits", addBenefitCardData);
 getAPIdataWithAxios("/categories", addCategorieCardData);
+getAPIdataWithAxios("/FAQs", addFaqData);

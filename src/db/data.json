@@ -103,5 +103,19 @@
             "name": "Personal Development",
             "count": "17 online courses"
         }
+    ],
+    "FAQs": [
+        {
+            "question": "High-quality video lessons",
+            "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+        },
+        {
+            "question": "Personalized feedback and support",
+            "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+        },
+        {
+            "question": "Access to course materials and resources",
+            "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+        }
     ]
 }
