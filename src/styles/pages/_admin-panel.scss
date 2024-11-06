@@ -1,0 +1,17 @@
+body {
+  background-color: $light_color;
+}
+
+.header_admin {
+  border: 1px solid $accent_color;
+  padding: 10px;
+  max-width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  h3 {
+    font-size: 28px;
+    font-family: $default_font;
+    color: $button_color;
+    text-align: center;
+  }
+}

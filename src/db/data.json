@@ -39,5 +39,31 @@
             "id": "10",
             "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Logo-2.webp"
         }
+    ],
+    "benefits": [
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-5.webp",
+            "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-1.webp",
+            "benefit": "Flexible time",
+            "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits."
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-2.webp",
+            "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-2.webp",
+            "benefit": "Certificate",
+            "description": "Teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda."
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-3.webp",
+            "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-3.webp",
+            "benefit": "Class program options",
+            "description": "Allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda."
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-4.webp",
+            "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-4.webp",
+            "benefit": "Access anywhere",
+            "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule."
+        }
     ]
 }

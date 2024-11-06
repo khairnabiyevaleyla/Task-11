@@ -1,5 +1,6 @@
 #partners {
   background-color: $light_color;
+  padding: 50px;
   .partners_logo {
     background-color: $white_color;
     padding: 10px;
@@ -8,7 +9,16 @@
     img {
       width: 150px;
       height: 59px;
-      margin-left: 10px;
+      margin-left: 12px;
     }
+  }
+}
+
+.header {
+  h3 {
+    font-size: 24px;
+    color: $text_color;
+    font-family: $default_font;
+    font-weight: 600;
   }
 }

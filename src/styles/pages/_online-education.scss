@@ -1,0 +1,65 @@
+#online-education {
+  font-family: $default_font;
+  background-color: $white_color;
+  padding: 50px;
+  .left_side {
+    @include Flexible(flex-start, start, column, nowrap, 20px);
+    margin-left: 50px;
+    margin-top: 20px;
+    &__body {
+      h3 {
+        font-size: 56px;
+        color: $headline_color;
+        font-weight: 700;
+        line-height: 64px;
+      }
+      p {
+        font-size: 18px;
+        color: $text_color;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 20px;
+      }
+    }
+    &__btn {
+      margin-top: 40px;
+      a {
+        @extend %base_button;
+        &:hover {
+          background-color: $accent_color;
+        }
+      }
+    }
+  }
+  .right_side {
+    &__logo {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+    }
+    &__body {
+      h4 {
+        font-size: 24px;
+        color: $headline_color;
+        font-weight: 600;
+      }
+      p {
+        font-size: 14px;
+        color: $text_color;
+        font-weight: 300;
+        line-height: 22px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
