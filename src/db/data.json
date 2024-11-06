@@ -65,5 +65,43 @@
             "benefit": "Access anywhere",
             "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule."
         }
+    ],
+    "categories": [
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-1.webp",
+            "bgColor": "#F4AB7F",
+            "name": "Business and Management",
+            "count": "32 online courses"
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-2.webp",
+            "bgColor": "#BAEA85",
+            "name": "Technology and IT",
+            "count": "24 online courses"
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-3.webp",
+            "bgColor": "#A1BEFA",
+            "name": "Communication",
+            "count": "11 online courses"
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-4.webp",
+            "bgColor": "#F9D261",
+            "name": "Arts and Design",
+            "count": "56 online courses"
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-5.webp",
+            "bgColor": "#A1DFFA",
+            "name": "Marketing",
+            "count": "20 online courses"
+        },
+        {
+            "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-6.webp",
+            "bgColor": "#F6C143",
+            "name": "Personal Development",
+            "count": "17 online courses"
+        }
     ]
 }

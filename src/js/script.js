@@ -15,6 +15,7 @@ const getAPIdataWithAxios = async (url, cb) => {
 
 const partnersRow = document.getElementById("partners-row");
 const benefitsCards = document.getElementById("benefits-cards");
+const categoriesCards = document.getElementById("categories-cards");
 
 const addPartnerLogoData = (data) => {
   if (data && partnersRow) {
@@ -53,5 +54,31 @@ const addBenefitCardData = (data) => {
   }
 };
 
+const addCategorieCardData = (data) => {
+  if (data && categoriesCards) {
+    let htmlContent = "";
+    data.forEach((element) => {
+      htmlContent += ` <div class="col-xl-4">
+                    <div class="categorie_card">
+                        <div class="categorie_card__icon" style = "background-color: ${element.bgColor}
+                        ">
+                            <img
+                                src="${element.icon}">
+                        </div>
+                        <div class="categorie_card__text">
+                            <h3>${element.name}</h3>
+                            <p>${element.count}</p>
+                        </div>
+                        <div class="categorie_card__link">
+                            <a href="#">View Lessons <i class="ri-arrow-right-s-line"></i></a>
+                        </div>
+                    </div>
+                </div>`;
+      categoriesCards.innerHTML = htmlContent;
+    });
+  }
+};
+
 getAPIdataWithAxios("/partners", addPartnerLogoData);
 getAPIdataWithAxios("/benefits", addBenefitCardData);
+getAPIdataWithAxios("/categories", addCategorieCardData);

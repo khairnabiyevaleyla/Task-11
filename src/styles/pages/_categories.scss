@@ -1,0 +1,60 @@
+#categories {
+  font-family: $default_font;
+  padding: 40px;
+  .categorie_heading {
+    h3 {
+      font-size: 56px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 18px;
+      color: $text_color;
+      font-weight: 300;
+      line-height: 28px;
+      margin-top: 20px;
+    }
+  }
+  .categorie_card {
+    @include Flexible(flex-start, start, column, nowrap, 12px);
+    background-color: $white_color;
+    border-radius: 24px;
+    padding: 32px 32px 24px 32px;
+    &__icon {
+      border-radius: 16px;
+      padding: 10px;
+      width: 80px;
+      img {
+        width: 56px;
+        height: 56px;
+      }
+    }
+    &__text {
+      line-height: 32px;
+      h3 {
+        font-size: 24px;
+        color: $headline_color;
+        font-weight: 600;
+      }
+      p {
+        font-size: 16px;
+        color: $text_color;
+        font-weight: 300;
+      }
+    }
+    &__link {
+      a {
+        text-decoration: none;
+        color: $headline_color;
+        font-size: 18px;
+        font-weight: 300;
+        transition: color 0.3s ease;
+        i {
+          font-weight: 1000;
+        }
+        &:hover {
+          color: $button_color;
+        }
+      }
+    }
+  }
+}
