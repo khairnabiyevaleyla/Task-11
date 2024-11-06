@@ -1,0 +1,92 @@
+#footer {
+  font-family: $default_font;
+  padding: 50px;
+  .footer_left__side {
+    @include Flexible(flex-start, start, column, nowrap, 20px);
+    &__logo {
+      img {
+        width: 120px;
+        height: 36px;
+      }
+    }
+    &__slogan {
+      p {
+        font-size: 14px;
+        color: $text_color;
+        font-weight: 300;
+        line-height: 22px;
+      }
+    }
+    &__socials {
+      ul {
+        @include Flexible(flex-start, start, row, nowrap, 15px);
+        li {
+          cursor: pointer;
+          i {
+            font-size: 25px;
+            transition: color 0.3 ease-in-out;
+            &:hover {
+              color: $button_color;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer_list {
+    ul {
+      @include Flexible(center, start, column, nowrap, 12px);
+      li {
+        font-size: 16px;
+        color: $headline_color;
+        font-weight: 500;
+      }
+      .head {
+        color: #a3a3a3;
+      }
+    }
+  }
+  .footer_subscribe {
+    h4 {
+      font-size: 16px;
+      color: #a3a3a3;
+      font-weight: 500;
+    }
+    &__form {
+      @include Flexible(flex-start, start, column, nowrap, 6px);
+      margin-top: 10px;
+      input {
+        outline: none;
+        border: 1px solid #b1b1b14f;
+        border-radius: 8px;
+        width: 80%;
+        padding: 14px 16px;
+      }
+      input::placeholder {
+        font-size: 14px;
+      }
+      a {
+        @extend %base_button;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 16px;
+        width: 80%;
+        padding: 16px;
+        cursor: pointer;
+        &:hover {
+          background-color: $accent_color;
+        }
+      }
+    }
+  }
+  .footer_copyright {
+    font-size: 16px;
+    color: $headline_color;
+    font-weight: 300;
+    border-top: 1px solid #d1d5db;
+    padding-top: 30px;
+    span {
+      color: $button_color;
+    }
+  }
+}
