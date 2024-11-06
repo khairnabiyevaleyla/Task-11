@@ -56,7 +56,7 @@ table {
      object-fit: cover;
 }
 
-#online-education .left_side__btn a, #explore .explore_body__btn a, #header .account .sign-up {
+#featured-courses .feautures_btn a, #online-education .left_side__btn a, #explore .explore_body__btn a, #header .account .sign-up {
   background-color: #f0844e;
   padding: 15px 30px;
   border-radius: 35px;
@@ -504,4 +504,7 @@ body {
 }
 #featured-courses .featured_courses__card__enroll a:hover {
   color: #f0844e;
+}
+#featured-courses .feautures_btn a:hover {
+  background-color: #f6c143;
 }/*# sourceMappingURL=style.css.map */

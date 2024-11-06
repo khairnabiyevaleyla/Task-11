@@ -68,4 +68,12 @@
       }
     }
   }
+  .feautures_btn {
+    a {
+      @extend %base_button;
+      &:hover {
+        background-color: $accent_color;
+      }
+    }
+  }
 }
