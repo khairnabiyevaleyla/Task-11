@@ -1,0 +1,48 @@
+#online-platform {
+  font-family: $default_font;
+  padding: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  .left_side {
+    &__text {
+      h3 {
+        font-size: 56px;
+        color: $headline_color;
+        font-weight: 700;
+        line-height: 52px;
+      }
+      p {
+        font-size: 18px;
+        color: $text_color;
+        font-weight: 300;
+        line-height: 28px;
+        margin-top: 40px;
+      }
+      ul {
+        @include Flexible(flex-start, start, column, nowrap, 30px);
+        margin-top: 40px;
+        li {
+          font-size: 18px;
+          color: $headline_color;
+          font-weight: 500;
+          i {
+            background-color: $button_color;
+            width: 16px;
+            height: 16px;
+            border-radius: 100%;
+            font-size: 20px;
+            padding: 10px;
+            margin-right: 10px;
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
+  .right_side__img {
+    img {
+      @extend %base_img;
+      border-radius: 30% 70% 72% 28% / 38% 34% 66% 62%;
+    }
+  }
+}
