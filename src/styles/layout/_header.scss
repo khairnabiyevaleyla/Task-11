@@ -1,52 +1,46 @@
 #header {
-    background: $light_color;
-    font-family: $default_font;
-    padding: 20px;
-.logo_img {
-padding-left: 50px;
-img {
-   width: 108px;
-   height: 32px;
-}
-}
-#nav_menu{
-@include Flexible (center,center,row,nowrap,30px);
-li {
-font-size: 16px;
-font-weight: 300;
-color: $headline_color;
-cursor: pointer;
-transition: color 0.3s ease;
-&:hover {
- color: $button_color;
-}
-}
-}
-.account{
-@include Flexible(center,center,row,nowrap,20px);
-a{
-    text-decoration: none;
-    color: $headline_color;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 700;
-}
-.login{
-transition: color 0.3s ease;
-&:hover {
- color: $button_color;
-}
-}
-.sign-up {
-background-color: $button_color;
-padding: 15px 30px;
-border-radius: 35px;
-font-size: 18px;
-transition: background-color 0.3s ease;
-&:hover {
-    background-color: $accent_color;
+  background: $light_color;
+  font-family: $default_font;
+  padding: 20px;
+  .logo_img {
+    padding-left: 50px;
+    img {
+      width: 108px;
+      height: 32px;
     }
-}
-
-}
+  }
+  #nav_menu {
+    @include Flexible(center, center, row, nowrap, 30px);
+    li {
+      font-size: 16px;
+      font-weight: 300;
+      color: $headline_color;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      &:hover {
+        color: $button_color;
+      }
+    }
+  }
+  .account {
+    @include Flexible(center, center, row, nowrap, 20px);
+    a {
+      color: $headline_color;
+      font-size: 16px;
+      text-transform: capitalize;
+      text-decoration: none;
+    }
+    .login {
+      transition: color 0.3s ease;
+      &:hover {
+        color: $button_color;
+      }
+    }
+    .sign-up {
+      @extend %base_button;
+      &:hover {
+        background-color: $accent_color;
+      }
+    }
+  }
 }

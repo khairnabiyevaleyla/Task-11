@@ -1,0 +1,78 @@
+#explore {
+  background-color: $light_color;
+  font-family: $default_font;
+  .explore_body {
+    @include Flexible(flex-start, start, column, nowrap, 20px);
+    margin-left: 50px;
+    margin-top: 100px;
+    &__text {
+      line-height: 68px;
+      h1 {
+        font-size: 64px;
+        color: $headline_color;
+        font-weight: 600;
+        span {
+          color: $button_color;
+        }
+      }
+      p {
+        color: $text_color;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-top: 12px;
+      }
+    }
+    &__btn {
+      @include Flexible(flex-start, start, row, nowrap, 12px);
+      padding-top: 30px;
+      a {
+        @extend %base_button;
+        padding: 20px 35px;
+        &:hover {
+          background-color: $accent_color;
+        }
+      }
+      .explore-courses {
+        background-color: $white_color;
+      }
+    }
+    &__profiles {
+      @include Flexible(center, center, row, nowrap, 5px);
+      .profile {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 2px solid $white_color;
+        position: relative;
+        z-index: 1;
+        img {
+          @extend %base_img;
+        }
+      }
+      .profile.overlap {
+        margin-left: -15px;
+        z-index: 0;
+      }
+      .text {
+        font-size: 12px;
+        color: $headline_color;
+        font-weight: bold;
+        @include Flexible(center, center, row, nowrap, 0);
+        background-color: $button_color;
+        border-radius: 50%;
+      }
+      .class-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: $headline_color;
+      }
+    }
+  }
+  .explore_img {
+    img {
+      @extend %base_img;
+    }
+  }
+}

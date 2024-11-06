@@ -1,5 +1,16 @@
 %base_img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+%base_button {
+  background-color: $button_color;
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: $dark_color;
+  font-weight: 700;
 }
