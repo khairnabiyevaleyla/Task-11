@@ -708,4 +708,27 @@ body {
 }
 #footer .footer_copyright span {
   color: #f0844e;
+}
+
+#login_page {
+  background-color: #ffffff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  padding: 50px;
+  height: 300px;
+}
+#login_page .page_text {
+  text-align: center;
+  line-height: 64px;
+}
+#login_page .page_text p {
+  color: #404040;
+  font-weight: 300;
+}
+#login_page .page_text p span {
+  color: #171717;
+  font-weight: 400;
+}
+#login_page .page_text h3 {
+  font-size: 56px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
