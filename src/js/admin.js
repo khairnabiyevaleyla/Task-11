@@ -176,28 +176,6 @@ CourseFormSubmit &&
 
     postDataJson(coursesUrl, payload);
   });
-PartnerLogoFormSubmit &&
-  PartnerLogoFormSubmit.addEventListener("submit", (e) => {
-    e.preventDefault();
-    console.log("submit");
-    let fileReader = new FileReader();
-    fileReader.onload = () => {
-      let payload = {
-        id: crypto.randomUUID(),
-        image: fileReader.result,
-      };
-
-      postDataJson(partnersUrl, payload);
-    };
-
-    console.log(PartnerLogoFormImage.files[0]);
-
-    if (PartnerLogoFormImage.files[0] == null) {
-      alert("No file selected");
-    } else {
-      fileReader.readAsDataURL(PartnerLogoFormImage.files[0]);
-    }
-  });
 
 ///////////////////////////////////////////////////////////////////////////
 
