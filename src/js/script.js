@@ -8,6 +8,7 @@ const getAPIdataWithAxios = async (url, cb) => {
   axiosInstance
     .get(url)
     .then((response) => {
+      console.log(response);
       cb(response.data);
     })
     .catch((error) => console.log("Error fetching data:", error));

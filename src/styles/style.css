@@ -235,20 +235,29 @@ table {
 
 body {
   background-color: #f6f4ef;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 
-.header_admin {
-  border: 1px solid #f6c143;
-  padding: 10px;
-  max-width: 400px;
-  margin: 10px;
-  border-radius: 10px;
+.partner-logo-table h1 {
+  font-size: 22px;
+  font-weight: 600;
 }
-.header_admin h3 {
-  font-size: 28px;
-  font-family: "Bricolage Grotesque", sans-serif;
-  color: #f0844e;
+
+.table {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+}
+.table th,
+.table td {
+  padding: 0.5rem;
   text-align: center;
+}
+.table .admin-img {
+  width: 100px;
+  height: 40px;
 }
 
 #online-education {

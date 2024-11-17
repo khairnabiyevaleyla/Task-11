@@ -46,25 +46,29 @@
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-5.webp",
       "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-1.webp",
       "benefit": "Flexible time",
-      "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits."
+      "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits.",
+      "id": "6c9e"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-2.webp",
       "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-2.webp",
       "benefit": "Certificate",
-      "description": "Teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda."
+      "description": "Teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda.",
+      "id": "097b"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-3.webp",
       "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-3.webp",
       "benefit": "Class program options",
-      "description": "Allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda."
+      "description": "Allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule that fits everyone’s agenda.",
+      "id": "9cdb"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-Icon-4.webp",
       "bg-im": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Why-BG-4.webp",
       "benefit": "Access anywhere",
-      "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule."
+      "description": "Online education allows teachers and students to set their own pace of learning, and there is added flexibility in setting a schedule.",
+      "id": "e318"
     }
   ],
   "categories": [
@@ -72,68 +76,80 @@
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-1.webp",
       "bgColor": "#F4AB7F",
       "name": "Business and Management",
-      "count": "32 online courses"
+      "count": "32 online courses",
+      "id": "3b82"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-2.webp",
       "bgColor": "#BAEA85",
       "name": "Technology and IT",
-      "count": "24 online courses"
+      "count": "24 online courses",
+      "id": "f5f8"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-3.webp",
       "bgColor": "#A1BEFA",
       "name": "Communication",
-      "count": "11 online courses"
+      "count": "11 online courses",
+      "id": "44d4"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-4.webp",
       "bgColor": "#F9D261",
       "name": "Arts and Design",
-      "count": "56 online courses"
+      "count": "56 online courses",
+      "id": "4bac"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-5.webp",
       "bgColor": "#A1DFFA",
       "name": "Marketing",
-      "count": "20 online courses"
+      "count": "20 online courses",
+      "id": "422a"
     },
     {
       "icon": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2023/06/eLearning-Courses-Icon-6.webp",
       "bgColor": "#F6C143",
       "name": "Personal Development",
-      "count": "17 online courses"
+      "count": "17 online courses",
+      "id": "8ce3"
     }
   ],
   "FAQs": [
     {
       "question": "High-quality video lessons",
-      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered.",
+      "id": "0515"
     },
     {
       "question": "Personalized feedback and support",
-      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered.",
+      "id": "a135"
     },
     {
       "question": "Access to course materials and resources",
-      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered."
+      "answer": "Whether you’re looking to improve your business skills, expand your knowledge of technology, or learn a new language, we’ve got you covered.",
+      "id": "bf91"
     }
   ],
   "courses": [
     {
       "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2019/05/course4-1.jpg",
       "name": "Complete Blender Creator: Learn 3D Modelling",
-      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress"
+      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress",
+      "id": "2d97"
     },
     {
       "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2019/05/course9-1.jpg",
       "name": "User Experience Design Essentials",
-      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress"
+      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress",
+      "id": "2cb0"
     },
     {
       "image": "https://outgrid.uicore.co/elearning/wp-content/uploads/sites/5/2019/05/course5-1.jpg",
       "name": "Sales Training: Practical Sales Techniques",
-      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress"
+      "keywords": "Design, Development, JavaScript, Math, Photography, PHP, WordPress",
+      "id": "25e6"
     }
   ]
 }

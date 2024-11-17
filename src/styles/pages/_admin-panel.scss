@@ -1,17 +1,29 @@
 body {
   background-color: $light_color;
+  font-family: $default_font;
+}
+.partner-logo-table {
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
 }
 
-.header_admin {
-  border: 1px solid $accent_color;
-  padding: 10px;
-  max-width: 400px;
-  margin: 10px;
-  border-radius: 10px;
-  h3 {
-    font-size: 28px;
-    font-family: $default_font;
-    color: $button_color;
+.table {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 300;
+
+  th,
+  td {
+    padding: 0.5rem;
     text-align: center;
+  }
+
+  .admin-img {
+    width: 100px;
+    height: 40px;
   }
 }
