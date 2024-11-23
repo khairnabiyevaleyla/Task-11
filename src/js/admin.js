@@ -38,6 +38,15 @@ const getAPIdataWithAxios = async (url, cb) => {
     .catch((error) => console.log("Error fetching data:", error));
 };
 
+const loginCheck = async () => {
+  const token = sessionStorage.getItem("token");
+  if (!token) {
+    window.location.href = "http://127.0.0.1:5500/public/login.html";
+  }
+};
+
+loginCheck();
+
 const postDataJson = async (url, payload) => {
   console.log(url);
   console.log(payload);
